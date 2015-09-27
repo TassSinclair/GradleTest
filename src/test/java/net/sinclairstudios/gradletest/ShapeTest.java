@@ -10,6 +10,6 @@ public class ShapeTest {
   public void shouldAddSidesTogetherToFindPerimeter() {
     Shape shape = new Shape(new int[]{2, 3}) {};
 
-    assertThat(shape.getPerimeter(), is(5));
+    assertThat(shape.getPerimeter(), is(7));
   }
 }
